@@ -26,26 +26,38 @@ on every iteration the recursive function takes in a **Different Input**
 
 ```
 .
+├── arrproduct
+│   ├── arrproduct.js
+│   └── arrproduct.py
+├── capitalize
+│   ├── capitalize.js
+│   └── capitalize.py
 ├── collectodds
 │   ├── collectodds.js
 │   ├── collectodds.py
 │   ├── collectodds_v2.js
 │   └── collectodds_v2.py
-├── collectodds_v2.js
 ├── countdown
 │   ├── countdown.js
 │   └── countdown.py
 ├── factorial
 │   ├── factorial.js
 │   └── factorial.py
+├── fibb
+│   ├── fibb.js
+│   └── fibb.py
 ├── fizzbuzz
 │   ├── fizzbuzz.js
 │   └── fizzbuzz.py
+├── power
+│   ├── power.js
+│   └── power.py
+├── README.md
 └── sumrange
     ├── sumrange.js
     └── sumrange.py
 
-5 directories, 13 files
+9 directories, 21 files
 
 ```
 
