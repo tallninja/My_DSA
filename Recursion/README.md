@@ -1,5 +1,6 @@
 # RECURSION
 
+![Recursion meme](https://github.com/tallninja/My_DSA/tree/master/Recursion/images/recursion_meme.jpg "Funny innit !!!")
 
 ## Brief Summary
 **Recursive Function** - This is a function that calls itself
