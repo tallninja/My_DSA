@@ -18,9 +18,9 @@ Works on both sorted and unsorted arrays.
 
 ### Time complexity (BIG 0) of linear search.
 
-> Best Case     = O(1)
-> Average Case  = O(n)
-> Worst Case    = O(n)
+> - Best Case     = O(1)
+> - Average Case  = O(n)
+> - Worst Case    = O(n)
 
 
 ## BINARY SEARCH
@@ -47,14 +47,15 @@ Uses the *Divide and Conquer* approach. That is, it only works on portions of th
 
 ### Time complexity (BIG(O)) of binary search.
 
-> Best Case     = O(1)
-> Average Case  = O(log n)
-> Worst Case    = O(1)
+> - Best Case     = O(1)
+> - Average Case  = O(log n)
+> - Worst Case    = O(1)
 
 
 
 # Directory Structure.
 
+```
 .
 ├── binary_search
 │   ├── binary_search.js
@@ -66,4 +67,4 @@ Uses the *Divide and Conquer* approach. That is, it only works on portions of th
 
 2 directories, 5 files
 
-
+```
