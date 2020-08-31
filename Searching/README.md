@@ -1,5 +1,9 @@
 # SEARCHING
 
+<p>
+    <img src="images/searching_meme.png"/>
+</p>
+
 ## Searching Algorithms
 
 1. Linear Search
