@@ -1,7 +1,7 @@
 # RECURSION
 
 <p>
-    <img src="images/recursion_meme.jpg" width="220" height="240" />
+    <img src="images/recursion_meme.jpg"/>
 </p>
 
 ## Brief Summary
