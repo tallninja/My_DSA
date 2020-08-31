@@ -1,6 +1,8 @@
 # RECURSION
 
-![Recursion meme](/images/recursion_meme.jpg "Funny innit !!!")
+<p>
+    <img src="images/recursion_meme.jpg" width="220" height="240" />
+</p>
 
 ## Brief Summary
 **Recursive Function** - This is a function that calls itself
