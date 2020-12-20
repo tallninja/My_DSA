@@ -45,3 +45,25 @@ newQueue.getData()
 newQueue.remove()
 newQueue.getData()
 newQueue.remove()
+
+
+
+def weave(queue1, queue2):
+
+    q = Queue()
+
+    while queue1.peek() or queue2.peek():
+        if queue1.peek():
+            q.add(quque1.remove())
+        if queue2.peek():
+            q.add(queue2.remove())
+
+    return q
+
+
+
+
+
+
+
+

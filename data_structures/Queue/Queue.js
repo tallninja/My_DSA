@@ -18,6 +18,10 @@ class Queue {
     }
   }
 
+  peek() { // returns the next element in the queue
+    return this.queue[this.queue.length - 1];
+  }
+
   getData() {
     return this.queue;
   }
@@ -58,6 +62,20 @@ newQueue.remove()
 
 
 
+function weave (queue1, queue2) {
 
+  let q = new Queue()
+
+  while (queue1.peek() || queue2.peek()) {
+    if(queue1.peek()){
+      q.add(queue1.remove())
+    }
+    if(queue2.peek()){
+      q.add(queue2.remove())
+    }
+  }
+
+  return q.getData()
+}
 
 
