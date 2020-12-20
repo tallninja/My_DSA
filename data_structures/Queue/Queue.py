@@ -58,7 +58,7 @@ def weave(queue1, queue2):
         if queue2.peek():
             q.add(queue2.remove())
 
-    return q
+    return q.getData()
 
 
 
