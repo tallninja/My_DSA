@@ -1,3 +1,9 @@
+/**
+ * Author: Ernest Wambua
+ * Date: 28/12/20
+ * Purpose: Undirected graph data structure
+ */
+
 class Graph {
   constructor() {
     this.adjacencyList = {};

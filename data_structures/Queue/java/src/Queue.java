@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Queue {
+public class Queue {
+    public static void main(String[] args) {
+        System.out.println("I'll work on this !");
+    }
 }

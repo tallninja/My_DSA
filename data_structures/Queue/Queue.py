@@ -17,34 +17,35 @@ class Queue:
         print(self.queue)
 
 
-newQueue = Queue()
+def main():
+    newQueue = Queue()
 
-print("Enqueueing !")
-newQueue.getData()
-newQueue.add(4)
-newQueue.getData()
-newQueue.add(23)
-newQueue.getData()
-newQueue.add(7)
-newQueue.getData()
-newQueue.add(0)
-newQueue.getData()
-newQueue.add(11)
-newQueue.getData()
+    print("Enqueueing !")
+    newQueue.getData()
+    newQueue.add(4)
+    newQueue.getData()
+    newQueue.add(23)
+    newQueue.getData()
+    newQueue.add(7)
+    newQueue.getData()
+    newQueue.add(0)
+    newQueue.getData()
+    newQueue.add(11)
+    newQueue.getData()
 
-print("Dequeueing !")
-newQueue.getData()
-newQueue.remove()
-newQueue.getData()
-newQueue.remove()
-newQueue.getData()
-newQueue.remove()
-newQueue.getData()
-newQueue.remove()
-newQueue.getData()
-newQueue.remove()
-newQueue.getData()
-newQueue.remove()
+    print("Dequeueing !")
+    newQueue.getData()
+    newQueue.remove()
+    newQueue.getData()
+    newQueue.remove()
+    newQueue.getData()
+    newQueue.remove()
+    newQueue.getData()
+    newQueue.remove()
+    newQueue.getData()
+    newQueue.remove()
+    newQueue.getData()
+    newQueue.remove()
 
 
 
@@ -61,7 +62,8 @@ def weave(queue1, queue2):
     return q.getData()
 
 
-
+if __name__ == '__main__':
+    main()
 
 
 

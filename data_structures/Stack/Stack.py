@@ -11,8 +11,11 @@ class Stack:
     def pop(self):
         if len(self.stack) > 0:
             self.stack.pop(-1)
-        else:
-            return None;
+
+    def peek(self):
+        if len(self.stack) > 0:
+            return self.stack[-1]
+        
 
     def getData(self):
         if len(self.stack) > 0:
@@ -21,31 +24,37 @@ class Stack:
             print("Stack is empty !")
 
 
-newStack = Stack()
 
-print("Pushing !")
+def main():
+    newStack = Stack()
 
-newStack.push(1)
-newStack.getData()
-newStack.push(2)
-newStack.getData()
-newStack.push(3)
-newStack.getData()
-newStack.push(4)
-newStack.getData()
-newStack.push(5)
-newStack.getData()
+    print("Pushing !")
 
-print("Popping !")
+    newStack.push(1)
+    newStack.getData()
+    newStack.push(2)
+    newStack.getData()
+    newStack.push(3)
+    newStack.getData()
+    newStack.push(4)
+    newStack.getData()
+    newStack.push(5)
+    newStack.getData()
 
-newStack.getData()
-newStack.pop()
-newStack.getData()
-newStack.pop()
-newStack.getData()
-newStack.pop()
-newStack.getData()
-newStack.pop()
-newStack.getData()
-newStack.pop()
-newStack.getData()
+    print("Popping !")
+
+    newStack.getData()
+    newStack.pop()
+    newStack.getData()
+    newStack.pop()
+    newStack.getData()
+    newStack.pop()
+    newStack.getData()
+    newStack.pop()
+    newStack.getData()
+    newStack.pop()
+    newStack.getData()
+
+
+if __name__ == '__main__':
+    main()
